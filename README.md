@@ -46,28 +46,10 @@ This assignment is broken down into two notebooks that represent a complete proj
 
 This assignment **must be completed on the Explorer HPC**, as the dataset is large and has been pre-loaded for your convenience. The notebook paths are already configured to read from the correct location on the HPC filesystem.
 
-The easiest way to use the HPC is through the [Open OnDemand (OOD) web interface](https://ood.explorer.northeastern.edu/). A Python environment with all necessary packages (`pyTorch`, `nibabel`, etc.) has been created for you at: `/courses/CS7150.202610/shared/venvs/pyT`
+The easiest way to use the HPC is through the [Open OnDemand (OOD) web interface](https://ood.explorer.northeastern.edu/). A Python environment with all necessary packages (`pyTorch`, `nibabel`, etc.) has been created for you at: `/courses/CS7150.202630/shared/brats20`
 
-There are two ways to use this environment for your Jupyter session:
-
-
-#### **Method A: Pointing Directly to the Python Executable**
-This is the simplest method and does not require any command-line work.
-
-1.  Log in to [Open OnDemand (OOD)](https://ood.explorer.northeastern.edu/).
-2.  Navigate to `Interactive Apps > JupyterLab Notebook`.
-3.  Fill out the session request form.
-4.  Check the box that says **"Local Anaconda install instead of one of the Anaconda modules"**.
-5.  A text field labeled **"Path to Custom Anaconda Install"** will appear. Paste the following path into it:
-    ```
-    /courses/CS7150.202610/shared/venvs/pyT/bin
-    ```
-6.  Launch the session. Your JupyterLab environment should automatically use the correct Python environment and all pre-installed packages.
-
-
-#### **Method B: Installing the Environment as a Jupyter Kernel (Easier, one-time setup)**
-If Method A gives you trouble, or if you prefer to have the environment appear as a named kernel in your Jupyter launcher, you can perform this one-time setup.
-
+#### **How to use this environment:**
+In order to use the set up enviroment, you will need to instal the environment as a Jupyter Kernel as a one-time setup.
 
 1.  Log in to [Open OnDemand (OOD)](https://ood.explorer.northeastern.edu/).
 2.  Start a terminal session by going to `Clusters > Explorer Shell Access`.
@@ -80,12 +62,12 @@ If Method A gives you trouble, or if you prefer to have the environment appear a
     
     Activate the shared Python environment
     ```bash
-    source activate /courses/CS7150.202610/shared/venvs/pyT
+    source activate /courses/CS7150.202630/shared/brats20
     ```
 
     Install this environment as a personal Jupyter kernel
     ```bash
-    python -m ipykernel install --user --name pyT --display-name "Python (pyTorchEnv)"
+    python -m ipykernel install --user --name brats20 --display-name "Python (Brats20)"
     ```
 
     Get off the compute node
