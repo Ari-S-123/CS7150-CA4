@@ -46,7 +46,7 @@ This assignment is broken down into two notebooks that represent a complete proj
 
 This assignment **must be completed on the Explorer HPC**, as the dataset is large and has been pre-loaded for your convenience. The notebook paths are already configured to read from the correct location on the HPC filesystem.
 
-The easiest way to use the HPC is through the [Open OnDemand (OOD) web interface](https://ood.explorer.northeastern.edu/). A Python environment with all necessary packages (`pyTorch`, `nibabel`, etc.) has been created for you at: `/courses/CS7150.202630/shared/brats20`
+The easiest way to use the HPC is through the [Open OnDemand (OOD) web interface](https://ood.explorer.northeastern.edu/). A Python environment with all necessary packages (`pyTorch`, `nibabel`, etc.) has been created for you at: `/courses/CS7150.202630/shared/env/brats`
 
 #### **How to use this environment:**
 In order to use the set up enviroment, you will need to instal the environment as a Jupyter Kernel as a one-time setup.
