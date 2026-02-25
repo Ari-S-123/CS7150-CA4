@@ -92,7 +92,7 @@ In order to use the set up enviroment, you will need to instal the environment a
 
 2.  Zip both completed notebooks (`.ipynb` files) into a single file. You may also include a PDF if you chose to report in one. Name the zip file `CA4-Your-Last-Name`.
 
-3.  Submit the zip file as a direct **reply** to the [*coding assignment module of week 5*](https://northeastern.instructure.com/courses/226141/discussion_topics/2877268?module_item_id=12458398) on Canvas.
+3.  Submit the zip file as a direct **reply** to the [*coding assignment module of week 5*](https://northeastern.instructure.com/courses/246096/discussion_topics/3039531) on Canvas.
 
 ### Getting Help
 
