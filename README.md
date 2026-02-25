@@ -62,12 +62,12 @@ In order to use the set up enviroment, you will need to instal the environment a
     
     Activate the shared Python environment
     ```bash
-    source activate /courses/CS7150.202630/shared/brats20
+    source activate /courses/CS7150.202630/shared/env/brats
     ```
 
     Install this environment as a personal Jupyter kernel
     ```bash
-    python -m ipykernel install --user --name brats20 --display-name "Python (Brats20)"
+    python -m ipykernel install --user --name brats --display-name "Python (BraTS20)"
     ```
 
     Get off the compute node
@@ -75,7 +75,7 @@ In order to use the set up enviroment, you will need to instal the environment a
     exit
     ```
 
-4.  After this is done, you can stop the terminal session. From now on, when you start a regular JupyterLab Notebook session on OOD, you will see **"Python (pyTorchEnv)"** in the list of available kernels to select.
+4.  After this is done, you can stop the terminal session. From now on, when you start a regular JupyterLab Notebook session on OOD, you will see **"Python (BraTS20)"** in the list of available kernels to select.
 
 </br>
 
